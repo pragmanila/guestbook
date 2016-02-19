@@ -1,5 +1,7 @@
 # Guestbook
 
+![Mockup](https://github.com/pragmanila/guestbook/blob/master/mockup.jpg?raw=true "Mockup")
+
 ## Instructions
 
 1. Follow the requirements as detailed below
