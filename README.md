@@ -6,7 +6,7 @@
 
 1. Follow the requirements as detailed below
 2. For each part, save your files in a separate folder (Part1, Part2, Part3)
-3. It is not required for you to finish all the parts. If you are more confident with HTML/CSS but not PHP, MySQL, and Javascript, you can just finish Part 1. In any case, Part 1 must always be completed.
+3. It is not required for you to finish all the parts. If you are more confident with HTML/CSS but not PHP, MySQL, and Javascript, you can just finish Part 1. *In any case, Part 1 must always be completed.*
 4. Compress your files (ZIP) and send it to info@pragmanila.com
 
 ## Requirements
