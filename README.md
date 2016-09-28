@@ -14,10 +14,12 @@
 ### Part 1: HTML and CSS
 
 - Convert the attached mockup (mockup.jpg) into HTML and CSS
+- Make sure that the markup is responsive through mobile, tablets and desktop views.
 
 ### Part 2: PHP and MySQL
 - Make the page functional in such a way that guestbook entries are being fetched from a database and displayed on the page when it loads
 - Make the form functional that when submitted, it will add entries to the guestbook, reload the page and display the newly added entry
+- Form should have basic validation rules implemented
 
 ### Part 3: Javascript and AJAX
 - Modify the form submission where the form submits through AJAX and the entry will be displayed on the list without reloading the page 
