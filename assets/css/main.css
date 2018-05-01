@@ -484,3 +484,199 @@ footer::after{
   display: block;
   clear: both;
 }
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  #main-banner h1.tittle{
+    font-size: 30px;
+  }
+  #main-banner p.sub-content{
+    text-align: center;
+    font-size: 14px;
+  }
+  .marketing-list li p.sub-marketing{
+    line-height: 1.3em;
+  }
+  .list-two a.btn{
+    top: 8%;
+  }
+  .guest-user{
+    margin: 5px 20px 10px 5px;
+  }
+  .footer-list{
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ header nav li, .hexa {
+  float: none;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+ }
+
+ header .hexa{
+   position: relative;
+   left: 37%;
+   display: none;
+ }
+ header .hexa li{
+  width: 30px;
+  height: 20px;
+ }
+ .hexagon-icon{
+   width: 20px;
+   height: 20px;
+ }
+ header i{
+   padding-top: 5px;
+ }
+ header .wrapper{
+   width: 100%;
+ }
+ header{
+  padding: 5px 0;
+ }
+ header nav li a{
+   display: block;
+   padding: 10px 5px;
+ }
+ .mobile{
+   float: right;
+   position: relative;
+   right: 2%;
+   top: 6px;
+ }
+ .mobile-icon{
+   width: 27px;
+   height: 4px;
+   background-color: #fff;
+   margin: 4px 3px;
+   position: relative;
+ }
+ .mobile-nav{
+   display: block;
+   width: 35px;
+   height: 40px;
+   position: relative;
+   left: 93%;
+ }
+ header nav ul{
+   height: 0;
+   overflow: hidden;
+   transition: height 0.7s;
+ }
+ header nav ul.open{
+   height: 130px;
+   transition: height 0.7s;
+ }
+ #main-banner img{
+  top: 0px;
+  left: 37%;
+ }
+ .banner-content{
+   top: 30%;
+ }
+ #main-banner p.sub-content{
+   font-size: 12px;
+ }
+  .marketing-slot{
+    width: 98%;
+    margin: 10px;
+  }
+  #segment p.sub-content{
+    max-width: 365px;
+    margin: 0 auto;
+  }
+  .marketing-list{
+    width: 50%;
+    left: 25%;
+    opacity: 1;
+  }
+  .marketing-list:hover::before{
+    opacity: 0;
+  }
+  .list-two a.btn{
+    top: 27%;
+  }
+  .user-content{
+    padding: 16px;
+  }
+  .guest-form{
+    width: 70%;
+    position: relative;
+    left: 14%;
+    margin-right: 0;
+  }
+  .guest-list{
+    width: 70%;
+    position: relative;
+    left: 14%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .marketing-list li p.sub-marketing{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 668px) {
+  header .hexa{
+    left: 32%;
+  }
+  .list-two a.btn{
+    top: 28%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .list-two a.btn{
+    top: 28%;
+  }
+}
+@media screen and ( max-width: 586px) {
+  .list-two a.btn{
+    top: 23%;
+  }
+}
+@media screen and ( max-width: 558px) {
+  .list-two a.btn{
+    top: 15%;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .hexa{
+    left: 29%;
+  }
+   .mobile-nav{
+     left: 90%;
+   }
+   #main-banner img{
+     left: 30%;
+   }
+   #main-banner h3.company-name{
+     font-size: 18px;
+   }
+   #main-banner h1.tittle{
+     font-size: 20px;
+   }
+   .marketing-list{
+     width: 70%;
+     left: 15%;
+   }
+   .list-two a.btn{
+     top: 28%;
+   }
+   .guest-form{
+     width: 95%;
+     left: 2%;
+   }
+   .guest-list{
+     width: 95%;
+     left: 2%
+   }
+   .footer-list{
+     margin-top: 15px;
+     float: none;
+   }
+}
