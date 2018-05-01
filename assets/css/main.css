@@ -487,6 +487,9 @@ footer::after{
 
 /* Media Queries */
 @media screen and (max-width: 960px) {
+  header .hexa{
+    margin-bottom: 10px;
+  }
   #main-banner h1.tittle{
     font-size: 30px;
   }
@@ -681,7 +684,16 @@ footer::after{
    }
 }
 @media screen and (max-width: 410px) {
+  header .hexa{
+    left: 26%;
+  }
+  #main-banner img{
+    left: 26%;
+  }
   .list-two a.btn{
     top: 16%;
+  }
+  .marketing-list ul li{
+    font-size: 12px;
   }
 }
