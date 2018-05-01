@@ -98,3 +98,85 @@ header::after{
   display: block;
   clear: both;
 }
+
+/* Banner  */
+#main-banner{
+  background-color: #940404;
+  position: relative;
+  z-index: 1;
+  min-height: 700px;
+  margin-top: 3px;
+}
+#main-banner img{
+  position: relative;
+  top: -80px;
+  left: 40%;
+}
+.banner-content{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+#main-banner h3.company-name{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
+#main-banner h1.tittle{
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: Montserrat;
+  max-width: 985px;
+  color: #ffffffbf;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 10px #000;
+  line-height: 1.6em;
+}
+#main-banner p.sub-content{
+  width: 100%;
+  max-width: 1080px;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: 1.6em;
+}
+#main-banner a.btn{
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 1px solid #02b347;
+  border-radius: 4px;
+  background-color: #17b168;
+  color: #fff;
+  box-shadow: 0px 5px 0px #294839;
+  transition: all 0.3s ease-in-out;
+}
+#main-banner a:hover{
+  background-color: #33ca82;
+  transition: all 0.3s ease-in-out;
+}
+#main-banner::after{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-top: 0px solid #000;
+  border-right: 2px solid #940404;
+  border-bottom: 2px solid #940404;
+  border-left: 0px solid #000;
+  top: 100%;
+  left: 50%;
+  margin-left: -35px;
+  content: "";
+  transform: rotate(45deg);
+  margin-top: -37px;
+  background-color: #940404;
+  padding: 15px;
+}
