@@ -636,7 +636,7 @@ footer::after{
 }
 @media screen and ( max-width: 586px) {
   .list-two a.btn{
-    top: 23%;
+    top: 16%;
   }
 }
 @media screen and ( max-width: 558px) {
@@ -679,4 +679,9 @@ footer::after{
      margin-top: 15px;
      float: none;
    }
+}
+@media screen and (max-width: 410px) {
+  .list-two a.btn{
+    top: 16%;
+  }
 }
