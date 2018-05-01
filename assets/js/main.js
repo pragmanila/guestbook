@@ -9,5 +9,19 @@ $(document).ready(function(){
     e.preventDefault();//just to prevent the default value on the page
   });
 
+  //Mobile navigation
+  $(".mobile-nav").on("click",function(){
+    // $(" header nav ul").toggleClass("open");
+
+      var l = $(" header nav ul");
+      if (l.hasClass("open")) {
+          l.removeClass("open");
+          $("header .hexa").attr("style", "");
+
+      } else {
+          l.toggleClass("open");
+          $("header .hexa").css({"display": "block", "animationDelay": "2s"});
+      }
+    });
 
 });
