@@ -332,3 +332,122 @@ header::after{
   display: block;
   clear: both;
 }
+
+/* Guestbook */
+#guestbook{
+  background-color: #333333f7;
+}
+#guestbook h1.guest-title{
+  text-align: center;
+  color: #ccc;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  padding: 20px 0;
+  letter-spacing: 3px;
+}
+.guest-form{
+  background-color: #272727;
+  width: 46%;
+  border-top: 2px solid #0000004a;
+  border-radius: 4px;
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 2%;
+}
+.forms{
+  padding: 20px 20px 5px;
+}
+#guestbook input, textarea{
+  width: 100%;
+  padding: 10px 0 10px 5px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: none;
+  position: relative;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+#guestbook textarea{
+  height: 200px;
+}
+.guest-bottom{
+  text-align: center;
+  background-color: #15151554;
+  width: 100%;
+  height: 100px;
+}
+#guestbook a.btn{
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  padding: 15px 30px;
+  background-color: #00cc66b0;
+  color: #000;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 25px;
+  box-shadow: 0px 5px 0px #294839;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+#guestbook a.btn:hover{
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.guest-list{
+  background-color: #272727;
+  width: 50%;
+  border-top: 2px solid #0000004a;
+  border-radius: 4px;
+  float: left;
+  height: 468px;
+  padding: 10px;
+  font-family: monospace;
+}
+.list-content{
+  height: 450px;
+  overflow: auto;
+}
+.guest-user{
+  background-color: #fff;
+  margin: 5px 20px 20px 5px  ;
+  border-radius: 2px;
+}
+.user-content{
+  padding: 15px;
+}
+#guestbook h3.title-user{
+  float: left;
+  font-size: 20px;
+  padding: 5px 0;
+}
+#guestbook h3.users{
+  float: left;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+#guestbook p.date{
+  float: right;
+  font-size: 15px;
+  padding: 5px 0;
+}
+#guestbook p.message{
+  float: left;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000b0;
+  width: 100%;
+  padding: 10px 0;
+}
+.guest-user::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.guestbook-content::after{
+  content: "";
+  display: block;
+  clear: both;
+}
