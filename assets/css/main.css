@@ -180,3 +180,155 @@ header::after{
   background-color: #940404;
   padding: 15px;
 }
+
+/* Segment */
+#segment{
+  margin-top: 60px;
+}
+#segment h1.segment-tittle{
+  text-align: center;
+  font-size: 40px;
+  color: #33333342;
+  text-transform: uppercase;
+  font-family: 'Fjalla One';
+  letter-spacing: 5px;
+}
+.marketing-slot{
+  width: 32%;
+  float: left;
+  margin: 10px 5px;
+  text-align: center;
+  padding: 20px 1%;
+}
+#segment h1.marketing-tittle{
+  font-family:sans-serif;
+  font-size: 25px;
+  line-height: 2.5em;
+}
+#segment p.sub-content{
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #0000008f;
+  font-family: sans-serif;
+}
+.segment-content::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.marketing{
+  margin-top: 50px;
+  background-color: #cccccc;
+
+  z-index: 2;
+}
+.marketing-list{
+  background-color: #99999930;
+  width: 32%;
+  padding: 10px 1%;
+  margin: 30px 5px;
+  float: left;
+  opacity: 0.4;
+  height: 355px;
+  position: relative;
+}
+.marketing-list:hover,
+.marketing-list::before{
+  opacity: 5;
+}
+.list-one{
+  border-top: 2px solid #339966;
+}
+.list-two{
+  border-top: 2px solid #666;
+}
+.list-three{
+  border-top: 2px solid #ff6666;
+}
+
+.marketing-list ul li{
+  list-style-type: none;
+  padding: 10px 0 10px 10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  border-bottom: 1px solid #999;
+  font-weight: bold;
+}
+.marketing-list li.checkmark{
+  padding-left: 20px;
+  margin-left: 15px;
+  background: url(../img/checkmark.png) no-repeat left 12px;
+}
+.marketing-list a.btn{
+  border: 1px solid #339966;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+  color: #000;
+  background-color: #339966;
+  margin: 10px auto;
+  display: table;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.marketing-list a.btn:hover{
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.list-two a.btn:hover{
+  color: #000;
+}
+.marketing-list li p.sub-marketing{
+  font-weight: normal;
+  font-size: 14px;
+  color: #0000008a;
+  padding-top: 5px;
+  position: relative;
+  top: 0;
+  left: -20px;
+  line-height: 1.5em;
+}
+.list-two a.btn{
+  background-color: #666;
+  border: 1px solid #666;
+  color: #fff;
+  position: relative;
+  top: 20%;
+}
+.list-two ul li{
+  padding: 10px 0 0 10px;
+}
+.list-two ul li:last-child{
+  border: none;
+}
+.list-three a.btn{
+  background-color: #ff6666;
+  border: 1px solid #ff6666;
+  position: relative;
+  top: 58%;
+}
+
+.marketing-list::before{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -12%;
+  left: 50%;
+  margin-left: -25px;
+  content: "";
+  transform: rotate(45deg);
+  background-color: #ccc;
+  z-index: -1;
+  opacity: 0;
+}
+.marketing-list:hover::before{
+  opacity: 1;
+}
+.marketing-content::after{
+  content: "";
+  display: block;
+  clear: both;
+}
